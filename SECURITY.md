@@ -3,18 +3,25 @@
 ## Scope
 
 This project is **local-only** by design.
-It performs no telemetry, analytics, or background network activity.
+
+It performs:
+- No telemetry
+- No analytics
+- No background network activity
+- No automatic updates
+
+All execution is user-initiated and visible.
 
 ## Reporting
 
-If you discover a security issue, please report it responsibly:
+If you believe you have found a security issue:
 
-- Email: **security@radiobee.dev** (or replace with preferred address)
-
-Please do not open public issues for security vulnerabilities.
+- Please use **GitHub Security Advisories** for responsible disclosure.
+- Do not post security issues in public GitHub issues.
 
 ## Guarantees
 
 - No auto-execution
 - No background services
-- All actions are user-invoked and auditable
+- No startup persistence
+- All actions are auditable by the user
